@@ -13,3 +13,10 @@ const salariosCubOrdenados = salariosCub.sort(
 const promedio = calcularMediaAritmetica(salariosCubOrdenados);
 const mediana = calcularMediana(salariosCubOrdenados);
 const moda = calcularModa(salariosCubOrdenados);
+
+//Mediana del top 10%
+
+const salariosCubTop10 = salariosCubOrdenados.splice(
+    (salariosCubOrdenados.length * (100 - 10) / 100),
+    (salariosCubOrdenados.length - (salariosCubOrdenados.length * (100 - 10) / 100))
+);
