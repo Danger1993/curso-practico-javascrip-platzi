@@ -22,3 +22,10 @@
 - Segund paso: implementar formulas en javascrip
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML
+
+## Taller #4: Salarios
+
+- Primer paso: definir formulas
+- Segund paso: implementar formulas en javascrip
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
